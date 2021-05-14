@@ -4,7 +4,7 @@ export default function Home(props) {
   // SPA
   // carregados somente ao entrar em tela. é um problema de SEO
   useEffect(() => {
-    fetch('http://localhost:3000/episodes')
+    fetch('http://localhost:1500/episodes')
       .then(response => response.json())
       .then(data => console.log('SPA', data))
   }, []);
@@ -40,7 +40,7 @@ export default function Home(props) {
 // aqui foi config no revalidate, de gerar uma nova versao do site, a partir de 8h
 // isso é mto bom em questao de performance
 export async function getStaticProps() {
-  const response = await fetch('http://localhost:3000/episodes')
+  const response = await fetch('http://localhost:1500/episodes')
   const data = await response.json()
 
   return {
