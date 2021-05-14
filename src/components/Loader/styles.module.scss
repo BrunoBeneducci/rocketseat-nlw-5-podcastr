@@ -1,0 +1,23 @@
+.loader {
+    z-index: 999;
+    height: 100vh;
+    width: 100vw;
+    background-color: #6F48C9;
+    color: #fff !important;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all ease 0.4s;
+    opacity: 0;
+    visibility: none;
+    pointer-events: none;
+    
+    &.active {
+        pointer-events: initial;
+        visibility: visible;
+        opacity: 1;
+    }
+}

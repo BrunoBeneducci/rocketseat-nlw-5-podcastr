@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing:  border-box;
+}
+
+:root {
+    // header
+    --bg-header: #FFF;
+    --color-header: #44475a;
+    --home-title: #494D4B;
+
+    // ultimos episodios home
+    --bg-lastest-ep: #fff;
+    --border-lastest-ep: #e6e8eb;
+    --play-button-lp: #fff;
+
+    --white: #FFF;
+    --gray-50: #F7F8FA;
+    --gray-100: #E6E8EB;
+    --gray-200: #AFB2B1;
+    --gray-500: #808080;
+    --gray-800: #494D4B;
+    --green-500: #04D361;
+    --purple-300: #9F75FF;
+    --purple-400: #9164FA; 
+    --purple-500: #8257E5;
+    --purple-800: #6F48C9;
+}
+
+body.themeDark {
+    // header
+    --bg-header: #111218;
+    --color-header: #ffffff;
+    --home-title: #a47dff;
+
+    // ultimos episodios home
+    --bg-lastest-ep: #232633;
+    --border-lastest-ep: #0d0e11;
+    --play-button-lp: #393b46;
+
+    // tabelas allEpisodes
+    --bg-all-ep-1: #1a1c26;
+    --bg-all-ep-2: #15171f;
+
+    --white: #FFF;
+    --gray-50: #111218;
+    --gray-100: #282a36;
+    --gray-200: #44475a;
+    --gray-500: #656879;
+    --gray-800: #b6b6b6;
+    --green-500: #04D361;
+    --purple-300: #9F75FF;
+    --purple-400: #9164FA; 
+    --purple-500: #8257E5;
+    --purple-800: #6F48C9;
+}
+
+button {
+    cursor: pointer;
+    outline: none;
+
+    &:hover, &:active, &:focus {
+        outline: none;
+    }
+}
+
+@media (max-width: 1080px) {
+    html {
+        font-size: 93.75%;
+    }
+}
+
+body {
+    background: var(--gray-50);
+}
+
+body, input, textarea, button {
+    font: 500 1rem Inter, sans-serif;
+    color: var(--gray-500);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 600;
+    font-family: Lexend, sans-serif;
+    color: var(--gray-800);
+}
+
+h1 {
+    font-size: 2rem;
+}
