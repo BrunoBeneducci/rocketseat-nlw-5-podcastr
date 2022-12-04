@@ -1,4 +1,3 @@
-# Podcastr
 ### Projeto realizado durante a NLW5 da Rocketseat
 
 Foi um dos projetos de estudos mais maneiros que coloquei a mão nos códigos!
@@ -9,7 +8,7 @@ O app funciona como um tocador de áudios, aqui com o tema de podcasts.
 Além do código implementado durante o NLW, adicionei novas features para o app:
 
 - 100% Responsivo
-- Darkmode
+- Dark mode
 - Lista de favoritos
 
 ![image](https://user-images.githubusercontent.com/13121896/205470783-bedc7fef-a91e-4b6f-ae54-4f6aa2531e95.png)
